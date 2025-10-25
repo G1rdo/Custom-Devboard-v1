@@ -15,3 +15,9 @@ Note to self: consider using the TO252 NCP instead of the SOT 223 because the ne
 ![First Journal Entry.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzkwNCwicHVyIjoiYmxvYl9pZCJ9fQ==--fbf657a64f555f53f2e94e501ce7460dea4cb49a/First%20Journal%20Entry.png)
   
 
+## 10/25/2025 - Finished the PCB Schematic (?)  
+
+My last journal entry was wrong, I had definitely not "completed most of the schematics"
+![Screenshot from 2025-10-25 16-02-14](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTU0MCwicHVyIjoiYmxvYl9pZCJ9fQ==--ea779bae51f287b8d76d4f26cc625418f4036e00/Screenshot%20from%202025-10-25%2016-02-14.png)
+I learned a bunch of stuff today, like how crystal oscillators and flash memory work. I decided that I want to optimize this RP2040 Devboard to run rust code, and so I'll want to have as much flash memory and flash memory speed as possible. I looked at the MT25QU128ABA8ESF-0SIT and W25Q128JWFIN Flash SPIs, but I decided to just go with the W25Q16JVUXIQ as it has the maximum memory that the RP2040 supports, has good speed, and I don't need to do anything to the voltage to use it.  
+
